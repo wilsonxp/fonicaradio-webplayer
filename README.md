@@ -1,4 +1,9 @@
-fonicaradio-webplayer
+# Webplayer para Fonicaradio.com , Fonica.cl y Beatpop.net
 =====================
 
-Webplayer para Fonicaradio.com
+## Funciona gracias a 
+
+* Friendfeed API que alimenta el songid en tiempo real via JSONP Long-polling
+* Lastfm API provee las imagenes identificatorias de los artistas
+* [SoundManager2](https://github.com/scottschiller/soundmanager2/) permite la reproduccion de audio mediante protocolo RTMP, y una API controlable con Javascript
+* Jquery, Jquery UI, Jquery Timers, Jquery Cookie
